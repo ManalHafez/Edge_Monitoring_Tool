@@ -1,0 +1,3 @@
+#!/bin/bash
+docker build -t node:v1
+docker container run -d node:v1

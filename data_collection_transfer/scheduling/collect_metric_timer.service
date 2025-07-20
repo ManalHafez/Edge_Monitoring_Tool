@@ -1,0 +1,10 @@
+[Unit]
+Description=Collect System Metrics Timer
+
+[Timer]
+OnUnitActiveSec=60s
+OnBootSec=60s
+Unit=collect_metrics.service
+
+[Install]
+WantedBy=timers.target
