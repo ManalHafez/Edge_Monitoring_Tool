@@ -1,0 +1,16 @@
+apiVersion: 1
+
+datasources:
+  - name: InfluxDB
+    type: influxdb
+    access: proxy
+    url: https://influxdb2:8086
+    basicAuth: false
+    secureJsonData:
+      token: "4CEJJnEO4ilxPPgCF57qyG_aJD1xhDpcuNeexqcz2YY_pheN-rUxQt62idQ-neaxQnlZZQe-ccXtgHo6Qm6DHg=="
+    jsonData:
+      version: Flux
+      organization: protexai
+      defaultBucket: metrics
+      tlsSkipVerify: true  # For self-signed cert
+
