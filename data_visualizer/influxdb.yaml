@@ -7,10 +7,10 @@ datasources:
     url: https://influxdb2:8086
     basicAuth: false
     secureJsonData:
-      token: "4CEJJnEO4ilxPPgCF57qyG_aJD1xhDpcuNeexqcz2YY_pheN-rUxQt62idQ-neaxQnlZZQe-ccXtgHo6Qm6DHg=="
+      token: "IPANJ3BjM5__aymNntV45z_2v9OR1wIocY8Fr1O7xMEzJy_e6qI4AOhUcFtyKj4Hl-VrrZq1Ac5pNvdomoGfzQ=="
     jsonData:
       version: Flux
       organization: protexai
       defaultBucket: metrics
-      tlsSkipVerify: true  # For self-signed cert
+      tlsSkipVerify: true
 
