@@ -24,7 +24,7 @@ disk_util=$(df -h | grep "/$" | awk '{print $3/$2}')
 disk=$(df -h | grep "/$" | awk '{print "Total Root: " $2 ", Root Usage: " $5}')
 
 ##Update Local Metrics File [Optional]##
-echo "$time_stamp, $node, $m_util, $c_util, $d_util" >> $output_file
+echo "$time_stamp, $node, $mem, $cpu, $disk" >> $output_file
 
 ##Send the metrics to external data source##
 curl -k --request POST "https://influxdb2:8086/api/v2/write?org=protexai&bucket=metrics&precision=s" --header "Authorization: Token new_token" --data-raw "metrics,host=${HOSTNAME} memory="${mem_util}",cpu=${cpu_util},disk=${disk_util}"
