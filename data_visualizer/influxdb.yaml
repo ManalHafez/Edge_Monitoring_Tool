@@ -7,7 +7,7 @@ datasources:
     url: https://influxdb2:8086
     basicAuth: false
     secureJsonData:
-      token: "IPANJ3BjM5__aymNntV45z_2v9OR1wIocY8Fr1O7xMEzJy_e6qI4AOhUcFtyKj4Hl-VrrZq1Ac5pNvdomoGfzQ=="
+      token: "I32gMCLeiXSr9AAvmVc3qMYPlbOG10FDJVHCyzToKYZXV8C4E63cVBJjHvKWE2Uj9iOsrD-JI9GaVjBKd3ip2A=="
     jsonData:
       version: Flux
       organization: protexai
