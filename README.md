@@ -26,3 +26,5 @@ Assumptions:
 -The edge devices run Linux (Ubuntu 22.04).
 - The data collection and transfer rate is 60 seconds.
 - All the edge devices are managed by AWS IOT core and GreenGrass.
+
+Demo Link: https://www.loom.com/share/367b3698b67c46988d07dddb5d8c38d0?sid=3b70a59c-3e12-4794-9d13-5872eb466020
